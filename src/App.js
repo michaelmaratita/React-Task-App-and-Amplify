@@ -8,7 +8,7 @@ import '@aws-amplify/ui-react/styles.css';
 import awsExports from './aws-exports';
 Amplify.configure(awsExports);
 
-const API_URL = "https://app.michaelmaratita.com";
+const API_URL = "https://app.michaelmaratita.com/";
 
 function App({ signOut }) {
   const [tasks, setTasks] = useState([]);
