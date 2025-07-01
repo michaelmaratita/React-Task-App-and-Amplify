@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="32" cy="32" r="30" stroke="#00FFD1" stroke-width="4" fill="#121212"></circle>
+  <path d="M20 33L28 41L44 25" stroke="#00FFD1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+    <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#00FFD1" flood-opacity="0.7"></feDropShadow>
+  </filter>
+  <circle cx="32" cy="32" r="30" stroke="#00FFD1" stroke-width="4" fill="none" filter="url(#glow)"></circle>
+</svg>
