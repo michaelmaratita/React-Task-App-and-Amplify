@@ -62,7 +62,7 @@ Example payload to **add** a task:
 def main(self):
     keys = list(self.data)
     if "action" in keys:
-    self.complete_action(keys)
+        self.complete_action(keys)
     return self.format_items()
 ```
 
