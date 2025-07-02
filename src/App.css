@@ -146,3 +146,50 @@ ul li span:hover {
   background: #444;
   color: #fff;
 }
+
+/* Center the authenticator */
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f11, #1a1a1d);
+  padding: 40px;
+}
+
+/* Style the Amplify Authenticator card */
+.amplify-authenticator {
+  max-width: 420px;
+  width: 100%;
+  border-radius: 12px;
+  background: #2a2a2e;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
+  padding: 30px 25px;
+}
+
+.amplify-button--primary {
+  background-color: #00adb5;
+}
+
+.amplify-button--primary:hover {
+  background-color: #00c8d6;
+}
+
+.amplify-Field__input {
+  background: #3d3d42;
+  border: 1px solid #555;
+  color: #f1f1f1;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.amplify-Button--primary {
+  background-color: #00adb5;
+  color: white;
+  border-radius: 30px;
+  padding: 12px 32px;
+}
+
+.amplify-Button--primary:hover {
+  background-color: #00c8d6;
+}
