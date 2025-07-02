@@ -60,10 +60,10 @@ Example payload to **add** a task:
 
 ```python
 def main(self):
-keys = list(self.data)
-if "action" in keys:
-self.complete_action(keys)
-return self.format_items()
+    keys = list(self.data)
+    if "action" in keys:
+    self.complete_action(keys)
+    return self.format_items()
 ```
 
 - If an `action` key exists in the request:
@@ -78,9 +78,9 @@ Dynamically maps the `action` to the corresponding method:
 
 ```python
 function_map = {
-"add": self.new_task,
-"delete": self.delete_task,
-"update": self.update_task
+    "add": self.new_task,
+    "delete": self.delete_task,
+    "update": self.update_task
 }
 ```
 
@@ -113,7 +113,7 @@ After a successful invocation, the response will look like:
   ]
 }
 ```
-
+---
 # ⚛️ React Frontend – Task App with AWS Amplify Auth + API
 
 This document outlines the structure and functionality of the main React components used in the Task App frontend. It includes the `App.js` file, which serves as the core of the user interface, and `AuthHeader.js`, which provides a custom header for the authentication flow using **AWS Amplify**.
