@@ -2,6 +2,8 @@
 
 This project is a simple **task management (CRUD) application** built with **React** and deployed using **AWS Amplify**. It was developed to deepen practical understanding of key AWS services and how they integrate within a modern full-stack application.
 
+### [Build this project](./docs/project.md)
+
 ## ✅ AWS Services Used
 
 - **AWS Amplify** – Frontend hosting and CI/CD
@@ -16,4 +18,6 @@ This project is a simple **task management (CRUD) application** built with **Rea
 
 The app allows users to securely **create, read, update, and delete tasks**, demonstrating how multiple AWS services can work together to support scalable, cloud-native applications.
 
+![login page](./img/login.PNG)
 ![Task App](./img/app-page.PNG)
+![completed task](./img/completed_task.PNG)
